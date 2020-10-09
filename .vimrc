@@ -32,7 +32,7 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 " having ESC on the keyboard.
-inoremap jk <ESC>
+" inoremap jk <ESC>
 
 
 call plug#begin('~/.vim/plugged')
@@ -107,3 +107,7 @@ vnoremap > >gv
 set incsearch
 set lines=82
 set columns=110
+
+set undodir=~/.vim/undofiles
+set undofile
+set undolevels=1000
