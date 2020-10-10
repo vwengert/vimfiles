@@ -34,6 +34,8 @@ set statusline+=%*
 " having ESC on the keyboard.
 " inoremap jk <ESC>
 
+set wildmode=longest,list,full
+set splitbelow splitright
 
 call plug#begin('~/.vim/plugged')
 
